@@ -1,0 +1,247 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --accent-color-hover: #188ce8;
+  --primary-bg-color: #ffffff;
+  --dark-bg-color: #2f303a;
+  --grey-bg-color: #f5f4fa;
+  --black-color: #000000;
+  --grey-color-first: #eeeeee;
+  --grey-color-second: #ececec;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+/* ========== properties reset ========== */
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ========== logo ========== */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+/* ========== menu ========== */
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/* ========== contact ========== */
+
+.page-header .contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.page-header .contact-link:hover,
+.page-header .contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* ========== hero ========== */
+
+.hero {
+  background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-text-color);
+}
+
+/* ========== button ========== */
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--accent-text-color);
+  background-color: #188ce8;
+  border-color: transparent;
+}
+
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--grey-bg-color);
+  border-color: transparent;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+
+/* ========== qualities ========== */
+
+.title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.qualities-subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.qualities-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* ========== team ========== */
+
+.team {
+background-color: var(--grey-bg-color);
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background-color: var(--grey-bg-color);
+}
+
+/* ========== portfolio ========== */
+
+.portfolio-subtitle {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* ========== footer ========== */
+
+.page-footer {
+  background-color: var(--dark-bg-color);
+}
+
+.page-footer .logo {
+  color: var(--accent-text-color);
+}
+
+.footer-address-link,
+.footer-contact-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address-link {
+  color: var(--accent-text-color);
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus,
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--accent-color);
+}
