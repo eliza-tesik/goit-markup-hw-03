@@ -136,14 +136,14 @@ button {
 .menu {
   display: flex;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 50px;
   margin-left: 93px;
 }
 
 .contact {
   display: flex;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 50px;
   margin-left: auto;
 }
 
@@ -159,6 +159,8 @@ button {
 }
 
 .hero-title {
+  width: 696px;
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -181,14 +183,14 @@ button {
   color: var(--accent-text-color);
   border-radius: 4px;
   background-color: var(--accent-color);
-  border-color: transparent;
+  border: none;
 }
 
 .btn:hover,
 .btn:focus {
   color: var(--accent-text-color);
   background-color: #188ce8;
-  border-color: transparent;
+  border: none;
 }
 
 .filter-btn {
@@ -201,14 +203,14 @@ button {
   color: var(--title-text-color);
   border-radius: 4px;
   background-color: var(--grey-bg-color);
-  border-color: transparent;
+  border: none;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--accent-text-color);
   background-color: var(--accent-color);
-  border-color: transparent;
+  border: none;
 }
 
 /* ========== qualities ========== */
@@ -253,6 +255,7 @@ button {
 }
 
 .qualities-text {
+  margin-top: 10px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -284,6 +287,9 @@ button {
 .team-card {
   flex-basis: calc((100% - 90px) / 4);
   background-color: var(--primary-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card-description {
@@ -294,6 +300,7 @@ button {
 .team-subtitle {
   text-align: center;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -361,7 +368,7 @@ button {
   color: var(--accent-text-color);
 }
 
-.footer-contact {
+.address {
   margin-top: 20px;
 }
 
